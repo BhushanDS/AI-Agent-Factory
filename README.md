@@ -1,10 +1,10 @@
-#  AI Agent Factory
+# AI Agent Factory
 
 <div align="center">
 
 **A Meta-Agent System that Creates AI Agents**
 
-*Describe what you need ? Get a fully functional AI agent*
+*Describe what you need - Get a fully functional AI agent*
 
 [![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
 [![OpenAI](https://img.shields.io/badge/OpenAI-GPT--4-412991?style=for-the-badge&logo=openai&logoColor=white)](https://openai.com)
@@ -14,65 +14,65 @@
 
 ---
 
-##  Table of Contents
+## Table of Contents
 
-- [Overview](#-overview)
-- [How It Works](#-how-it-works)
-- [Features](#-features)
-- [Installation](#-installation)
-- [Configuration](#-configuration)
-- [Usage](#-usage)
+- [Overview](#overview)
+- [How It Works](#how-it-works)
+- [Features](#features)
+- [Installation](#installation)
+- [Configuration](#configuration)
+- [Usage](#usage)
   - [Interactive Mode](#1-interactive-mode)
   - [CLI Commands](#2-cli-commands)
   - [Programmatic API](#3-programmatic-api)
-- [Generated Agent Structure](#-generated-agent-structure)
-- [Available Capabilities](#-available-capabilities)
-- [Project Structure](#-project-structure)
-- [Examples](#-examples)
-- [Troubleshooting](#-troubleshooting)
-- [Contributing](#-contributing)
-- [License](#-license)
+- [Generated Agent Structure](#generated-agent-structure)
+- [Available Capabilities](#available-capabilities)
+- [Project Structure](#project-structure)
+- [Examples](#examples)
+- [Troubleshooting](#troubleshooting)
+- [Contributing](#contributing)
+- [License](#license)
 
 ---
 
-##  Overview
+## Overview
 
-**AI Agent Factory** is a revolutionary meta-agent system ? an AI that creates other AI agents. Instead of manually coding AI assistants, simply describe what you need in natural language, and the factory will:
+**AI Agent Factory** is a revolutionary meta-agent system - an AI that creates other AI agents. Instead of manually coding AI assistants, simply describe what you need in natural language, and the factory will:
 
-1.  **Understand** your requirements through intelligent conversation
-2.  **Design** the perfect agent configuration (personality, capabilities, behavior)
-3.  **Generate** clean, production-ready Python code
-4.  **Create** a fully functional, immediately runnable AI agent
+1. **Understand** your requirements through intelligent conversation
+2. **Design** the perfect agent configuration (personality, capabilities, behavior)
+3. **Generate** clean, production-ready Python code
+4. **Create** a fully functional, immediately runnable AI agent
 
-This project demonstrates the power of **agentic AI** ? AI systems that can autonomously perform complex tasks, including creating other AI systems.
+This project demonstrates the power of **agentic AI** - AI systems that can autonomously perform complex tasks, including creating other AI systems.
 
 ---
 
-##  How It Works
+## How It Works
 
 ```
-?
-?                      AI AGENT FACTORY                           ?
-?
-?                                                                 ?
-?   User Input          Meta-Agent            Generated Agent     ?
-?   ?                     ?     ?
-?                                                                 ?
-?   "I need an    ?    Factory    ?     code_assistant/   ?
-?    agent that         (GPT-4)              ? __init__.py      ?
-?    helps with                              ? code_assistant.py?
-?    coding"                                 ? README.md        ?
-?                                                                 ?
-?                           ?                        ?            ?
-?                           ?                        ?            ?
-?                                 ?
-?                    ? Understands  ?        ? Ready to Run ?     ?
-?                    ? Requirements ?        ? python agent ?     ?
-?                    ? Designs Config?       ?              ?     ?
-?                    ? Generates Code?       ?  Chat with ?     ?
-?                            ?   your agent ?     ?
-?                                                 ?
-?
++------------------------------------------------------------------+
+|                      AI AGENT FACTORY                            |
++------------------------------------------------------------------+
+|                                                                  |
+|   User Input          Meta-Agent            Generated Agent      |
+|   -----------         ----------            ---------------      |
+|                                                                  |
+|   "I need an    -->   [Factory]     -->    agents/assistant/     |
+|    agent that         (GPT-4)              +-- __init__.py       |
+|    helps with                              +-- assistant.py      |
+|    coding"                                 +-- README.md         |
+|                                                                  |
+|                           |                        |             |
+|                           v                        v             |
+|                    +--------------+        +--------------+      |
+|                    | Understands  |        | Ready to Run |      |
+|                    | Requirements |        | python agent |      |
+|                    | Designs Config|       |              |      |
+|                    | Generates Code|       | Chat with    |      |
+|                    +--------------+        | your agent   |      |
+|                                            +--------------+      |
++------------------------------------------------------------------+
 ```
 
 ### The Process
@@ -89,22 +89,22 @@ This project demonstrates the power of **agentic AI** ? AI systems that can auto
 
 ---
 
-## ? Features
+## Features
 
 | Feature | Description |
 |---------|-------------|
-| ? **Conversational Design** | Describe your agent in plain English ? no coding required |
-|  **Smart Configuration** | Automatically generates optimal system prompts and settings |
-|  **Template-Based Generation** | Produces clean, consistent, maintainable Python code |
-|  **Multiple Capabilities** | Support for chat, coding, reasoning, planning, and more |
-|  **CLI Interface** | Easy command-line usage with rich formatting |
-|  **Programmatic API** | Integrate agent creation into your own applications |
-|  **Auto Documentation** | Each generated agent includes its own README |
-|  **Extensible** | Easy to add new capabilities and templates |
+| **Conversational Design** | Describe your agent in plain English - no coding required |
+| **Smart Configuration** | Automatically generates optimal system prompts and settings |
+| **Template-Based Generation** | Produces clean, consistent, maintainable Python code |
+| **Multiple Capabilities** | Support for chat, coding, reasoning, planning, and more |
+| **CLI Interface** | Easy command-line usage with rich formatting |
+| **Programmatic API** | Integrate agent creation into your own applications |
+| **Auto Documentation** | Each generated agent includes its own README |
+| **Extensible** | Easy to add new capabilities and templates |
 
 ---
 
-## ? Installation
+## Installation
 
 ### Prerequisites
 
@@ -157,7 +157,7 @@ This installs:
 
 ---
 
-##  Configuration
+## Configuration
 
 ### Setting Up Your API Key
 
@@ -191,11 +191,11 @@ export OPENAI_API_KEY="your-api-key-here"
 4. Copy the key and save it securely
 5. Add billing at [Billing Settings](https://platform.openai.com/settings/organization/billing/overview)
 
->  **Note:** OpenAI API requires credits. New accounts may get free credits; otherwise, add a payment method.
+> **Note:** OpenAI API requires credits. New accounts may get free credits; otherwise, add a payment method.
 
 ---
 
-##  Usage
+## Usage
 
 ### 1. Interactive Mode
 
@@ -207,27 +207,27 @@ python main.py
 
 **Example Session:**
 ```
- AI Agent Factory ?
-?  Welcome to the AI Agent Factory!                     ?
-?                                                         ?
-? I'm a meta-agent that creates other AI agents.          ?
-? Tell me what kind of agent you want to create.          ?
-?                                                         ?
-? Type 'quit' to exit.                                    ?
-?
++------------------- AI Agent Factory --------------------+
+| Welcome to the AI Agent Factory!                        |
+|                                                         |
+| I'm a meta-agent that creates other AI agents.          |
+| Tell me what kind of agent you want to create.          |
+|                                                         |
+| Type 'quit' to exit.                                    |
++---------------------------------------------------------+
 
 You: I need an agent that helps me write professional emails
 
- Creating agent...
+Creating agent...
 
 I'll create an EmailAssistant for you! Here's the configuration:
 - Name: EmailAssistant  
 - Capabilities: chat, reasoning
 - Temperature: 0.7
 
-? Agent created successfully!
- Location: agents/email_assistant
- Name: EmailAssistant
+[OK] Agent created successfully!
+Location: agents/email_assistant
+Name: EmailAssistant
 
 To run your agent:
 python agents/email_assistant/email_assistant.py
@@ -329,28 +329,28 @@ agent.run()
 
 ---
 
-##  Generated Agent Structure
+## Generated Agent Structure
 
 When you create an agent, the factory generates a complete package:
 
 ```
 agents/
-? your_agent_name/
-    ? __init__.py           # Package initialization
-    ? your_agent_name.py    # Main agent class
-    ? README.md             # Agent documentation
++-- your_agent_name/
+    +-- __init__.py           # Package initialization
+    +-- your_agent_name.py    # Main agent class
+    +-- README.md             # Agent documentation
 ```
 
 ### Generated Agent Features
 
 Each generated agent includes:
 
-- ? **Inherits from BaseAgent** - Consistent interface
-- ? **Configured System Prompt** - Defines personality
-- ? **Conversation History** - Maintains context
-- ? **Interactive Mode** - `agent.run()` for CLI chat
-- ? **Capability Methods** - Based on selected capabilities
-- ? **Documentation** - README with usage instructions
+- [x] **Inherits from BaseAgent** - Consistent interface
+- [x] **Configured System Prompt** - Defines personality
+- [x] **Conversation History** - Maintains context
+- [x] **Interactive Mode** - `agent.run()` for CLI chat
+- [x] **Capability Methods** - Based on selected capabilities
+- [x] **Documentation** - README with usage instructions
 
 ### Example Generated Code
 
@@ -382,7 +382,7 @@ class ProjectManager(BaseAgent):
 
 ---
 
-##  Available Capabilities
+## Available Capabilities
 
 | Capability | Description | Added Methods |
 |------------|-------------|---------------|
@@ -399,44 +399,44 @@ class ProjectManager(BaseAgent):
 
 ---
 
-##  Project Structure
+## Project Structure
 
 ```
 ai-agent-factory/
-?
-? agent_factory/              # Core module
-?   ? __init__.py            # Package exports
-?   ? base_agent.py          # BaseAgent class (parent for all agents)
-?   ? config.py              # Pydantic models (AgentConfig, etc.)
-?   ? factory.py             # AgentFactory (the meta-agent)
-?   ? templates.py           # Jinja2 templates for code generation
-?
-? agents/                     # Generated agents directory
-?   ? __init__.py            # Package marker
-?
-? examples/                   # Example scripts
-?   ? create_agents.py       # Programmatic creation examples
-?   ? use_agent.py           # Usage examples
-?
-? .github/
-?   ? copilot-instructions.md # AI coding assistant instructions
-?
-? .vscode/
-?   ? launch.json            # Debug configurations
-?   ? tasks.json             # Build tasks
-?
-? .env.example               # Example environment file
-? .gitignore                 # Git ignore rules
-? cli.py                     # Command-line interface
-? main.py                    # Main entry point
-? requirements.txt           # Python dependencies
-? LICENSE                    # MIT License
-? README.md                  # This file
+│
+├── agent_factory/              # Core module
+│   ├── __init__.py            # Package exports
+│   ├── base_agent.py          # BaseAgent class (parent for all agents)
+│   ├── config.py              # Pydantic models (AgentConfig, etc.)
+│   ├── factory.py             # AgentFactory (the meta-agent)
+│   └── templates.py           # Jinja2 templates for code generation
+│
+├── agents/                     # Generated agents directory
+│   └── __init__.py            # Package marker
+│
+├── examples/                   # Example scripts
+│   ├── create_agents.py       # Programmatic creation examples
+│   └── use_agent.py           # Usage examples
+│
+├── .github/
+│   └── copilot-instructions.md # AI coding assistant instructions
+│
+├── .vscode/
+│   ├── launch.json            # Debug configurations
+│   └── tasks.json             # Build tasks
+│
+├── .env.example               # Example environment file
+├── .gitignore                 # Git ignore rules
+├── cli.py                     # Command-line interface
+├── main.py                    # Main entry point
+├── requirements.txt           # Python dependencies
+├── LICENSE                    # MIT License
+└── README.md                  # This file
 ```
 
 ---
 
-##  Examples
+## Examples
 
 ### Example 1: Code Review Agent
 
@@ -516,7 +516,7 @@ print(tutor.plan_task("Learn the basics of Python in 2 weeks"))
 
 ---
 
-##  Troubleshooting
+## Troubleshooting
 
 ### Common Issues
 
@@ -578,16 +578,16 @@ Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 
 ---
 
-##  Contributing
+## Contributing
 
 Contributions are welcome! Here's how you can help:
 
 ### Ways to Contribute
 
--  **Report bugs** - Open an issue with details
--  **Suggest features** - Share your ideas
--  **Improve docs** - Fix typos, add examples
--  **Submit PRs** - Add new capabilities, fix issues
+- **Report bugs** - Open an issue with details
+- **Suggest features** - Share your ideas
+- **Improve docs** - Fix typos, add examples
+- **Submit PRs** - Add new capabilities, fix issues
 
 ### Development Setup
 
@@ -614,21 +614,21 @@ git push origin feature/your-feature
 
 ---
 
-##  License
+## License
 
 This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
 
 ```
 MIT License - You are free to:
-? Use commercially
-? Modify
-? Distribute
-? Use privately
+[x] Use commercially
+[x] Modify
+[x] Distribute
+[x] Use privately
 ```
 
 ---
 
-##  Acknowledgments
+## Acknowledgments
 
 - **OpenAI** for the GPT models
 - **Pydantic** for data validation
@@ -637,9 +637,9 @@ MIT License - You are free to:
 
 ---
 
-## ? Star This Project
+## Star This Project
 
-If you find this useful, please give it a star! ?
+If you find this useful, please give it a star!
 
 It helps others discover the project and motivates continued development.
 
@@ -647,11 +647,10 @@ It helps others discover the project and motivates continued development.
 
 <div align="center">
 
-**Built with  using Python and OpenAI**
+**Built with Python and OpenAI**
 
-[Report Bug](https://github.com/yourusername/ai-agent-factory/issues) · 
-[Request Feature](https://github.com/yourusername/ai-agent-factory/issues) · 
+[Report Bug](https://github.com/yourusername/ai-agent-factory/issues) | 
+[Request Feature](https://github.com/yourusername/ai-agent-factory/issues) | 
 [Contribute](https://github.com/yourusername/ai-agent-factory/pulls)
-
 
 </div>
